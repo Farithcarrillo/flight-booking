@@ -1,5 +1,5 @@
 # flight-booking-app
-aplicación de reserva de vuelos que permite a los usuarios buscar vuelos, seleccionar uno y realizar una reserva.
+Aplicación de reserva de vuelos que permite a los usuarios buscar vuelos, seleccionar uno y realizar una reserva.
 
 ## Tabla de Contenidos
 
@@ -27,9 +27,9 @@ Tecnologias y herramientas necesarias para la ejecuciondel proyecto
 
 ## Instalación
 
-Explica los pasos necesarios para instalar y configurar el proyecto.
+A continuacion se explican los pasos necesarios para instalar y configurar el proyecto.
 
-1. Paso 1
+1. clonar el repositorio: git clone https://github.com/Farithcarrillo/flight-booking-app.git
 2. Paso 2
 3. Paso 3
 
