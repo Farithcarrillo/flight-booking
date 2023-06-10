@@ -35,29 +35,33 @@ Abrir una terminal de comandos y pararnos en la ruta donde se desee clonar el re
 1. clonar el repositorio: 
 >git clone https://github.com/Farithcarrillo/flight-booking-app.git
 
-2. Verificar que se tenga instalado postgreSQL, en caso que no, instarlo (Se recomienda uso de pgAdmin si se tiene dificultad de SQL)
+2. Verificar que se tenga instalado postgreSQL, en caso que no, instalarlo (Se recomienda uso de pgAdmin si se tiene dificultad de SQL)
 
 3. Abrir consola de comandos sql, o pgAdmin e ingresar a servidor de base de datos (Esto con el usuario master que se tenga para postgreSQL)
 
 4. Una vez se haya iniciado sesion, seguir paso a paso del archivo [SQL](database/db.sql)
 
-2. Ingresar al proyecto clonado. Se encontraran dentro de el 3 carpetas
+5. Seguido a la creación de la base de datos, ingresar al proyecto clonado. Se encontraran dentro de el 3 carpetas
     - database (Información SQL para la creación de base de datos)
     - flight-booking-backend (Backend de la apliación con Nodejs)
     - flight-booking-frontend (Frontend de la apliación con Nodejs)
 
-3. Ingresar a la carpeta flight-booking-backend
+6. Ingresar a la carpeta flight-booking-backend
 >cd flight-booking-backend
 Seguido a esto vamos a correr el siguiente comando para instalar los modulos de node necesarios:
 >npm install
+Posterior procedemos a arrancar el servicio backend del proyecto:
+>npm run dev
 
-4. Regresar a la carpeta raiz del proyecto
+7. Regresar a la carpeta raiz del proyecto
 >cd ..
 
-5.Ingresar a la carpeta flight-booking-frontend
+8. Ingresar a la carpeta flight-booking-frontend
 >cd flight-booking-frontend
 Seguido a esto vamos a correr el siguiente comando para instalar los modulos de node necesarios:
 >npm install
+Posterior procedemos a arrancar el servicio frontend del proyecto:
+>npm start
 
 ## Uso
 
