@@ -67,9 +67,14 @@ Seguido a esto vamos a correr el siguiente comando para instalar los modulos de 
 Posterior procedemos a arrancar el servicio frontend del proyecto:
 >npm start
 
+9. La aplicación esta lista para usarse localmente
+
 ## Uso
 
-Proporciona ejemplos o instrucciones de uso del proyecto.
-
-```bash
-comando-de-ejemplo
+El proyecto tiene una pantalla principal para busqueda de vuelos:
+![Pantalla principal](main.png)
+Esta pantalla nos permite filtrar la busqueda de un vuelo que se quiera reservar como usuario. Esta posee los campos (Todos Obligatorios):
+    - From: que es un listado de las ciudades donde salen vuelos
+    - To: que es un listado de las ciudades donde terminan vuelos
+    - Check In: Que es la fecha del viajes
+    - Number of people: El numero de personas que estaran en la reserva
