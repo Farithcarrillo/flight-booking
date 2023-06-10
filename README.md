@@ -88,3 +88,9 @@ Cada vuelo disponible se encuentra en un card con la información detallada del 
 ![Tercera Pantalla](three.png)
 
 Esta pantalla consta de dos columnas, una con los detalles del vuelo y la otra que es un formulario para realizar la reserva
+
+4. Al realizarse la reserva obtendremos una pantalla de confirmación que nos brinda un numero de reserva, este debemos guardarlo para la proxima pantalla, o para buscar reservaciones
+![Cuarta Pantalla](4.png)
+
+5. Por ultimo está la pantalla de reservaciones que nos permite buscar una reservación por el ticket Id anteriormente recibido
+![Quinta Pantalla](5.png)
