@@ -48,8 +48,10 @@ Abrir una terminal de comandos y pararnos en la ruta donde se desee clonar el re
 
 6. Ingresar a la carpeta flight-booking-backend
 >cd flight-booking-backend
+
 Seguido a esto vamos a correr el siguiente comando para instalar los modulos de node necesarios:
 >npm install
+
 Posterior procedemos a arrancar el servicio backend del proyecto:
 >npm run dev
 
@@ -58,8 +60,10 @@ Posterior procedemos a arrancar el servicio backend del proyecto:
 
 8. Ingresar a la carpeta flight-booking-frontend
 >cd flight-booking-frontend
+
 Seguido a esto vamos a correr el siguiente comando para instalar los modulos de node necesarios:
 >npm install
+
 Posterior procedemos a arrancar el servicio frontend del proyecto:
 >npm start
 
