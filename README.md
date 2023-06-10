@@ -22,17 +22,42 @@ Enumera las principales características y funcionalidades del proyecto.
 Tecnologias y herramientas necesarias para la ejecuciondel proyecto
 
 - Nodejs: https://nodejs.org/es
+- npm: Al instalar node se pueden instalar los paguetes de npm
 - Reactjs: https://es.react.dev/
 - Postgresql: https://www.postgresql.org/
+- GIT: https://git-scm.com/
+ 
 
 ## Instalación
 
 A continuacion se explican los pasos necesarios para instalar y configurar el proyecto.
-
+Abrir una terminal de comandos y pararnos en la ruta donde se desee clonar el repositorio
 1. clonar el repositorio: 
 >git clone https://github.com/Farithcarrillo/flight-booking-app.git
-2. Paso 2
-3. Paso 3
+
+2. Verificar que se tenga instalado postgreSQL, en caso que no, instarlo (Se recomienda uso de pgAdmin si se tiene dificultad de SQL)
+
+3. Abrir consola de comandos sql, o pgAdmin e ingresar a servidor de base de datos (Esto con el usuario master que se tenga para postgreSQL)
+
+4. Una vez se haya iniciado sesion, seguir paso a paso del archivo [SQL](database/db.sql)
+
+2. Ingresar al proyecto clonado. Se encontraran dentro de el 3 carpetas
+    - database (Información SQL para la creación de base de datos)
+    - flight-booking-backend (Backend de la apliación con Nodejs)
+    - flight-booking-frontend (Frontend de la apliación con Nodejs)
+
+3. Ingresar a la carpeta flight-booking-backend
+>cd flight-booking-backend
+Seguido a esto vamos a correr el siguiente comando para instalar los modulos de node necesarios:
+>npm install
+
+4. Regresar a la carpeta raiz del proyecto
+>cd ..
+
+5.Ingresar a la carpeta flight-booking-frontend
+>cd flight-booking-frontend
+Seguido a esto vamos a correr el siguiente comando para instalar los modulos de node necesarios:
+>npm install
 
 ## Uso
 
