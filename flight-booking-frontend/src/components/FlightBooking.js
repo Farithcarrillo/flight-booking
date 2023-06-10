@@ -86,13 +86,6 @@ export default function FlightBooking() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="breadcrumb-text">
-                <h2>Book Flight #{getFlight.id}</h2>
-                <div className="bt-option">
-                  <a href="./home.html">Home</a>
-                  <span>Rooms</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>

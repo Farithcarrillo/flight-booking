@@ -71,10 +71,20 @@ Posterior procedemos a arrancar el servicio frontend del proyecto:
 
 ## Uso
 
-- El proyecto tiene una pantalla principal para busqueda de vuelos:
+1. El proyecto tiene una pantalla principal para busqueda de vuelos:
 ![Pantalla principal](main.png)
 Esta pantalla nos permite filtrar la busqueda de un vuelo que se quiera reservar como usuario. Esta posee los campos (Todos Obligatorios):
 - From: que es un listado de las ciudades donde salen vuelos.
 - To: que es un listado de las ciudades donde terminan vuelos.
 - Check In: Que es la fecha del viajes.
 - Number of people: El numero de personas que estaran en la reserva.
+
+2. Luego de presionar el boton de Search Flights, y ser valida la peticion se cargara una segunda pantalla, con el listado de vuelos disponibles para reservar:
+![Segunda Pantalla](second.png)
+
+Cada vuelo disponible se encuentra en un card con la información detallada del mismo.
+
+3. Al seleccionar un vuelo, pasaremos a la tercera pantalla que es el formulario de reserva:
+![Tercera Pantalla](three.png)
+
+Esta pantalla consta de dos columnas, una con los detalles del vuelo y la otra que es un formulario para realizar la reserva
