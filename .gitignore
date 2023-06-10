@@ -5,6 +5,7 @@ flight-booking-backend/node_modules
 flight-booking-frontend/node_modules
 /.pnp
 .pnp.js
+.vscode
 
 # testing
 /coverage
