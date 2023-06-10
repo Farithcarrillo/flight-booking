@@ -29,7 +29,8 @@ Tecnologias y herramientas necesarias para la ejecuciondel proyecto
 
 A continuacion se explican los pasos necesarios para instalar y configurar el proyecto.
 
-1. clonar el repositorio: git clone https://github.com/Farithcarrillo/flight-booking-app.git
+1. clonar el repositorio: 
+>git clone https://github.com/Farithcarrillo/flight-booking-app.git
 2. Paso 2
 3. Paso 3
 
